@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Edit Project
+Comment=Edit project source code
+Exec=bash -c 'cd "$(dirname "$1")/tools" && ./vscode.sh' dummy %k
+Icon=/usr/share/pixmaps/com.visualstudio.code.png
+Terminal=false
+Type=Application

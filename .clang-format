@@ -1,0 +1,14 @@
+{ 
+  BasedOnStyle: LLVM,
+  IndentWidth: 4, 
+  TabWidth: 4,
+  UseTab: Never,
+  BreakBeforeBraces: Allman,
+  AllowShortIfStatementsOnASingleLine: false,
+  AllowShortFunctionsOnASingleLine: false,
+  AllowShortBlocksOnASingleLine: true,
+  IndentCaseLabels: false,
+  ColumnLimit: 80,
+  AccessModifierOffset: -4,
+  SortIncludes: false,
+}
