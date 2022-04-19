@@ -42,7 +42,7 @@
 - at VSCode, click on `No Kit Selected` at the bottom menu (blue bar);
 - Select `GCC 8.4.0 xtensa-esp32-elf ..` at the dropdown menu;
 - Open a new terminal in VSCode;
-- Navigate to the `ESP32/source/*` directory, where `*` is the folder's name of interest;
+- Navigate to the project directory, like `ESP32/myCodes/blink`;
 - Execute the following command to build the application:
   ```
   $ idf.py all
