@@ -66,7 +66,7 @@ $ echo $IDF_PATH
 ls /dev/tty*
 ```
 
-### (Adding user to dialout on Linux)[https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/establish-serial-connection.html#adding-user-to-dialout-on-linux]
+### [Adding user to dialout on Linux](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/establish-serial-connection.html#adding-user-to-dialout-on-linux)
 - The currently logged user should have read and write access the serial port over USB.
 ```
 sudo usermod -a -G dialout $USER
