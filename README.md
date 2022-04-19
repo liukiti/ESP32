@@ -38,9 +38,8 @@
 
 ## Your Code
 
-- Put your code inside the `ESP32/source` directory;
+- Put your code inside the `ESP32/myCodes` directory;
 - It's recommended to use an IDF example as a template. Copy one of them from `ESP32/esp-idf/examples/`
-- Copy the `.gitignore` from root folder to your code folder;
 
 ## Open:
 - double click in edit.desktop;
